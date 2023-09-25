@@ -12,9 +12,66 @@
         td {
             border: 1px solid black;
         }
+
+        body,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        ol,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .orarend {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .orarend th,
+        .orarend td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .orarend th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .orarend td {
+            background-color: #fff;
+        }
+
+        .orarend td:not(:first-child),
+        .orarend th:not(:first-child) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .orarend th {
+            background-color: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .orarend tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
     </style>
-    <table style="width:100%">
+    <table class="orarend" style="width:100%">
         <tr>
+            <th>Óra</th>
+            <th>Időpont</th>
             <th>Hétfő</th>
             <th>Kedd</th>
             <th>Szerda</th>
@@ -22,6 +79,8 @@
             <th>Péntek</th>
         </tr>
         <tr>
+            <th>0.</th>
+            <td>7:15 - 8:00</td>
             <td>IKT projektmunka</td>
             <td></td>
             <td>Testnevelés</td>
@@ -29,6 +88,8 @@
             <td>Történelem</td>
         </tr>
         <tr>
+            <th>1.</th>
+            <td>8:00 - 8:45</td>
             <td>IKT projektmunka</td>
             <td>Webprogramozás</td>
             <td>Testnevelés</td>
@@ -36,6 +97,8 @@
             <td>Angol nyelv</td>
         </tr>
         <tr>
+            <th>2.</th>
+            <td>8:55 - 9:40</td>
             <td>IKT projektmunka</td>
             <td>Webprogramozás</td>
             <td>Angol nyelv</td>
@@ -43,6 +106,8 @@
             <td>Matematika</td>
         </tr>
         <tr>
+            <th>3.</th>
+            <td>9:50 - 10:35</td>
             <td>Szakmai angol</td>
             <td>Webprogramozás</td>
             <td>Angol nyelv</td>
@@ -50,6 +115,8 @@
             <td>Matematika</td>
         </tr>
         <tr>
+            <th>4.</th>
+            <td>10:45 - 11:30</td>
             <td>Szakmai angol</td>
             <td>Asztali alkalmazások</td>
             <td>Történelem</td>
@@ -57,6 +124,8 @@
             <td>Magyar nyelv és irodalom</td>
         </tr>
         <tr>
+            <th>5.</th>
+            <td>11:40 - 12:25</td>
             <td>Adatbázis kezelés</td>
             <td>Asztali alkalmazások</td>
             <td>Állampolgári ismeretek</td>
@@ -64,6 +133,8 @@
             <td>Testnevelés</td>
         </tr>
         <tr>
+            <th>6.</th>
+            <td>12:45 - 13:30</td>
             <td>Szoftvertesztelés</td>
             <td>Asztali alkalmazások</td>
             <td>Magyar nyelv és irodalom</td>
@@ -71,6 +142,8 @@
             <td></td>
         </tr>
         <tr>
+            <th>7.</th>
+            <td>13:35 - 14:20</td>
             <td>Szoftvertesztelés</td>
             <td></td>
             <td>Matematika</td>
